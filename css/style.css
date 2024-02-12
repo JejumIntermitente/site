@@ -245,7 +245,7 @@ section.contacts{
     margin-top: 5rem;
 }
 
-.title a button:hover{
+a button:hover{
     box-shadow: var(--box-shadow);
     background: var(--second-bg-color);
     cursor: pointer;
