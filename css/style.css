@@ -618,7 +618,7 @@ section.gar2#gar2{
     padding: .5rem;
     border: var(--border);
     color: var(--bg-color);
-    scale: 0;
+    scale: 1;
     
 }
 
