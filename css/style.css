@@ -426,7 +426,7 @@ section.gar2#gar2{
     background: var(--bg-color);
     text-align: center;
     background-size:auto ;
-    size: 10vh;
+    
 }
 
 .yosh h1{
@@ -461,18 +461,25 @@ section.gar2#gar2{
     color: var(--text-color);
 }
 
+.gar-box{
+    margin-top: 2rem;
+}
+
 .gar-box p{
     font-size: 3rem;
     text-align: center;
     color: var(--text-color);
     padding-top: 2rem;
     padding-bottom: 3rem;
+    text-transform: uppercase;
+    font-style: italic;
 }
 
 .gar1 h1{
     font-size: 6rem;
     font-style:normal;
     color: var(--text-color);
+    
 }
 
 .gar1 h2{
@@ -487,18 +494,21 @@ section.gar2#gar2{
     color: var(--text-color);
     padding-top: 2rem;
     padding-bottom: 3rem;
+    text-transform: uppercase !important;
 }
 
 .gar2 h1{
     font-size: 6rem;
     font-style:normal;
-    color: var(--text-color);
+    color: var(--second-color) !important;
+    text-transform: uppercase;
 }
 
 .gar2 h2{
     font-size: 5rem;
     font-style:normal;
-    color: var(--text-color);
+    color: goldenrod !important;
+    text-transform: uppercase;
 }
 
 .gar-box p{
@@ -508,6 +518,7 @@ section.gar2#gar2{
     padding-top: 2rem;
     padding-bottom: 3rem;
     text-transform: capitalize;
+    
 }
 
 .tags{
@@ -531,7 +542,6 @@ section.gar2#gar2{
 .tags .rights strong{
     font-size: 1.5rem;
     justify-content: space-between;
-    
 }
 
 
@@ -562,25 +572,28 @@ section.gar2#gar2{
     html{
         font-size: 50%;
         overflow-x: hidden;
+        min-width: 412px;
     }
     
     body{
         background: var(--bg-color);
         color: var(--text-color);
-        width: 100%;
+        min-width: 412px !important;
+        left: 0; top: 0; right: 0;
     }
     
     section{
-        min-height: auto;
-        padding: 10rem 9% 2rem;
+        min-height: 100%;
+        left: 0; top: 0; right: 0;
+        min-height: 412px !important;
     }
 
     
 .home{
-    display: inline-block;
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 412px;
+    min-width: 100%;
     background-size: cover;
     align-self: center;
 
@@ -612,13 +625,14 @@ section.gar2#gar2{
 
 .home-content a button{
     font-size: 3rem;
-    font-weight: 500;
+    font-weight: 400;
     background: var(--text-color);
-    border-radius: 1.3rem;
-    padding: .5rem;
+    border-radius: 1.5rem;
+    padding: 1rem;
     border: var(--border);
     color: var(--bg-color);
     scale: 1;
+
     
 }
 
@@ -640,7 +654,7 @@ section.content{
     display: inline-block;
     align-items: center;
     text-transform: capitalize;
-    min-width: 412px;
+    min-width: 100%;
     background-position: center;
     background-size: cover;
 }
